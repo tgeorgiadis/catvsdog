@@ -1,7 +1,8 @@
 "use client";
 
 import { useCallback } from "react";
-import { OptimisticLocalStore, useMutation, useQuery } from "convex/react";
+import { useMutation, useQuery } from "convex/react";
+import { OptimisticLocalStore } from "convex/browser";
 import { api } from "../convex/_generated/api";
 
 export default function Home() {
