@@ -159,6 +159,7 @@ function VoteCard({
   return (
     <button
       className={`flex basis-0 flex-1 min-w-0 max-w-[12rem] flex-col items-center justify-center rounded-2xl p-5 shadow transition ${toneClass}`}
+      id={`vote-${label.toLowerCase()}-button`}
       onClick={onClick}
     >
       {imageSrc ? (
