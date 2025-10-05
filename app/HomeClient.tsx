@@ -186,6 +186,7 @@ function GoldfishEasterEgg({ onReveal }: { onReveal: () => void }) {
       className="absolute bottom-6 right-6 flex h-12 w-12 items-center justify-center rounded-full bg-orange-200 shadow-lg transition hover:scale-105 hover:bg-orange-300"
       onClick={onReveal}
       aria-label="Reveal goldfish voting"
+      id="goldfish-easter-egg-button"
     >
       <span className="text-2xl">🐠</span>
     </button>
